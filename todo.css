@@ -3,23 +3,23 @@
   box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
 }
 
- .container {
+.container {
   width:700px;
-  margin-right: auto;
-  margin-left : auto;
+  margin: 0 auto;
 }
 
 .box1 {
-    padding: 0.5em 1em;
-    margin: 2em 0;
-    width: 80%;
-    color: #5d627b;
-    background: white;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  width: 80%;
+  color: #5d627b;
+  background: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
+
 .box1 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*trash icon*/
@@ -36,6 +36,7 @@
   border-radius: 0 0 2px 2px;
   background-color: currentColor;
 }
+
 .trash-solid.icon:before {
   content: '';
   position: absolute;
@@ -45,6 +46,7 @@
   height: 1px;
   background-color: currentColor;
 }
+
 .trash-solid.icon:after {
   content: '';
   position: absolute;
@@ -64,9 +66,11 @@
   font-size:10px;
   opacity: 50%;
 }
+
 .subject-content {
   border-bottom: solid 2px #555;
 }
+
 .btn-square {
   display: inline-block;
   margin: 15px 0 0 auto;
@@ -89,7 +93,7 @@
   border-bottom: none;/*線を消す*/
 }
 
-.btnWrap{
+.btn-wrap{
   text-align: right;
 }
 
